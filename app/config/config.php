@@ -11,3 +11,5 @@ define("APPROOT", dirname(dirname(__FILE__)));
 define("URLROOT", "http://localhost/php-apps/sharepost");
 // Site Name
 define("SITENAME", "sharePost");
+// Version
+define("VERSION", "1.0.0");
