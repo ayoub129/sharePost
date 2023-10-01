@@ -64,7 +64,7 @@ class Database
             }
         }
 
-        $this->stmt->bindValues($param, $value, $type);
+        $this->stmt->bindValue($param, $value, $type);
     }
 
     // Execute the prepared stmt
