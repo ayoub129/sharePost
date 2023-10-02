@@ -13,7 +13,7 @@
                 </div>
                 <div class="form-group">
                     <label for="password" class="mb-2 mt-4">Password: <sup>*</sup></label>
-                    <input type="text" id="password" name="password" class="form-control form-control-lg <?php echo (!empty($data['password_error'])) ? "is-invalid" : "" ?>" value="<?php echo $data['password'] ?>">
+                    <input type="password" id="password" name="password" class="form-control form-control-lg <?php echo (!empty($data['password_error'])) ? "is-invalid" : "" ?>" value="<?php echo $data['password'] ?>">
                     <span class="invalid-feedback"><?php echo $data['password_error'] ?></span>
                 </div>
                 <div class="row mt-5">

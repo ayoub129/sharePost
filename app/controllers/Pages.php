@@ -7,6 +7,10 @@ class Pages extends Controller
 
     public function index()
     {
+        if (isLoggedIn()) {
+            redirect("posts");
+        }
+
         $data = [
             "title" => "SharePost",
             "description" => "simple social network build on top of ayoubmvc php framwork"
